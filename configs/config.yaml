@@ -1,0 +1,14 @@
+database:
+  path: /var/lib/integrity-monitor/checksums.db
+
+monitored_paths:
+  - /bin
+  - /sbin
+  - /usr/bin
+  - /usr/sbin
+  - /usr/local/bin
+  - /usr/local/sbin
+
+scan_interval: 300  # seconds (5 minutes)
+enable_watcher: true
+log_file: /var/log/integrity-monitor.log
