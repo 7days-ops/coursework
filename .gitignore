@@ -1,0 +1,8 @@
+# Binary
+integrity-monitor
+
+# Database
+*.db
+
+# macOS
+.DS_Store
